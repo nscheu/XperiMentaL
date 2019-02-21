@@ -1,7 +1,7 @@
 /**
  * 
  */
-package xperimental;
+package main.org.java.XperiMentaL;
 
 /**
  * @author Nick
@@ -18,11 +18,11 @@ public class Plane {
 	protected Seller seller;
 	protected Location location;
 	
-	Plane(){
+	public Plane(){
 		
 	}
 	
-	Plane(int id, int year, String make, String model, String color, String description, String price, Seller seller, Location location){
+	public Plane(int id, int year, String make, String model, String color, String description, String price, Seller seller, Location location){
 		this.id = id;
 		this.year = year;
 		this.make= make;
@@ -52,126 +52,126 @@ public class Plane {
 	/**
 	 * @return the id
 	 */
-	protected int getId() {
+	public int getId() {
 		return id;
 	}
 
 	/**
 	 * @param i the id to set
 	 */
-	protected void setId(int i) {
+	public void setId(int i) {
 		this.id = i;
 	}
 
 	/**
 	 * @return the year
 	 */
-	protected int getYear() {
+	public int getYear() {
 		return year;
 	}
 
 	/**
 	 * @param year the year to set
 	 */
-	protected void setYear(int year) {
+	public void setYear(int year) {
 		this.year = year;
 	}
 
 	/**
 	 * @return the make
 	 */
-	protected String getMake() {
+	public String getMake() {
 		return make;
 	}
 
 	/**
 	 * @param make the make to set
 	 */
-	protected void setMake(String make) {
+	public void setMake(String make) {
 		this.make = make;
 	}
 
 	/**
 	 * @return the model
 	 */
-	protected String getModel() {
+	public String getModel() {
 		return model;
 	}
 
 	/**
 	 * @param model the model to set
 	 */
-	protected void setModel(String model) {
+	public void setModel(String model) {
 		this.model = model;
 	}
 
 	/**
 	 * @return the color
 	 */
-	protected String getColor() {
+	public String getColor() {
 		return color;
 	}
 
 	/**
 	 * @param color the color to set
 	 */
-	protected void setColor(String color) {
+	public void setColor(String color) {
 		this.color = color;
 	}
 
 	/**
 	 * @return the description
 	 */
-	protected String getDescription() {
+	public String getDescription() {
 		return description;
 	}
 
 	/**
 	 * @param description the description to set
 	 */
-	protected void setDescription(String description) {
+	public void setDescription(String description) {
 		this.description = description;
 	}
 
 	/**
 	 * @return the price
 	 */
-	protected String getPrice() {
+	public String getPrice() {
 		return price;
 	}
 
 	/**
 	 * @param price the price to set
 	 */
-	protected void setPrice(String price) {
+	public void setPrice(String price) {
 		this.price = price;
 	}
 
 	/**
 	 * @return the seller
 	 */
-	protected Seller getSeller() {
+	public Seller getSeller() {
 		return seller;
 	}
 
 	/**
 	 * @param  seller the seller to set
 	 */
-	protected void setSeller(String seller) {
+	public void setSeller(String seller) {
 		this.seller =  new Seller(seller);
 	}
 
 	/**
 	 * @return the location
 	 */
-	protected Location getLocation() {
+	public Location getLocation() {
 		return location;
 	}
 
 	/**
 	 * @param location the location to set
 	 */
-	protected void setLocation(String city, String state) {
+	public void setLocation(String city, String state) {
 		this.location = new Location(city, state);
 	}
     

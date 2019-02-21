@@ -1,13 +1,16 @@
 /**
  * 
  */
-import xperimental;
-
+package test.org.java.XperiMentaL;
 
 
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
 import org.junit.jupiter.api.Test;
+
+import main.org.java.XperiMentaL.Location;
+import main.org.java.XperiMentaL.Plane;
+import main.org.java.XperiMentaL.Seller;
 
 /**
  * @author Nick

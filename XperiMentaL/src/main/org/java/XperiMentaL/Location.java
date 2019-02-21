@@ -1,7 +1,7 @@
 /**
  * 
  */
-package xperimental;
+package main.org.java.XperiMentaL;
 
 /**
  * @author Nick
@@ -10,32 +10,34 @@ package xperimental;
 public class Location {
 	protected String city;
 	protected String state;
-	Location(String city, String state){
+	
+	public Location(String city, String state){
 		this.city = city;
 		this.state = state;
 	}
+	
 	/**
 	 * @return the city
 	 */
-	protected String getCity() {
+	public String getCity() {
 		return city;
 	}
 	/**
 	 * @param city the city to set
 	 */
-	protected void setCity(String city) {
+	public void setCity(String city) {
 		this.city = city;
 	}
 	/**
 	 * @return the state
 	 */
-	protected String getState() {
+	public String getState() {
 		return state;
 	}
 	/**
 	 * @param state the state to set
 	 */
-	protected void setState(String state) {
+	public void setState(String state) {
 		this.state = state;
 	}
 	

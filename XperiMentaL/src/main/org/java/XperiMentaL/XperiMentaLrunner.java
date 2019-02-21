@@ -1,7 +1,7 @@
 /**
  * 
  */
-package xperimental;
+package main.org.java.XperiMentaL;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
